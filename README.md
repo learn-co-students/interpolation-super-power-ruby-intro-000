@@ -1,4 +1,4 @@
-# Interpolation Queue
+# Interpolation Super Power
 
 ## Objectives
 

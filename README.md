@@ -94,7 +94,7 @@ quite a bit by considering that name, age, and occupation really just
 comprise a list of attributes about a person. We have a really great
 data structure for representing lists in Ruby...an array!
 
-With that in mind, let's represent our data this way:
+With that in mind, let's represent our data as an array:
 
 ```ruby
 bob     = ["Bob", 46, "Juggler"]
@@ -136,13 +136,7 @@ puts "Name: #{stefani[0]}, Age: #{stefani[1]}, Occupation: #{stefani[2]}"
 # => "Name: Stefani, Age: 49, Occupation: Firefighter"
 ```
 
-Nice! But even this is a bit much. The fact that we have to repeat this
-code is a pretty good sign that we need a printer method:
-
-```ruby
-puts "Name: #{bob[0]}, Age: #{bob[1]}, Occupation: #{bob[2]}"
-puts "Name: #{stefani[0]}, Age: #{stefani[1]}, Occupation: #{stefani[2]}"
-```
+Nice! But even this is a bit much. The fact that we have to repeat so much code is a pretty good sign that we need a printer method.
 
 So let's do that! Let's make a method, `#print_business_card`, that
 accepts an array representing a person, and then prints out their

@@ -209,3 +209,14 @@ flying, right?) Your turn!
 3. It should accept an array containing the colors as an argument
 4. Run `learn` locally until you pass
 5. Submit the lab
+
+`colors` will be passed in as: `['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']`
+
+You must read from the `colors` argument and you can hardcode the order, there is no need to use `#each` or any loop. For example, given `letters = ["b","a","c"]` to print them in alphabetical order without iteration you could:
+
+```ruby
+letters = ["b","a","c"]
+puts "The first letter in the alphabet is: #{letters[1]}"
+puts "The second letter in the alphabet is: #{letters[0]}"
+puts "The third letter in the alphabet is: #{letters[2]}"
+```

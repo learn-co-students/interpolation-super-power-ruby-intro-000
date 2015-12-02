@@ -187,3 +187,5 @@ puts "The first letter in the alphabet is: #{letters[1]}"
 puts "The second letter in the alphabet is: #{letters[0]}"
 puts "The third letter in the alphabet is: #{letters[2]}"
 ```
+
+<a href='https://learn.co/lessons/interpolation-super-power' data-visibility='hidden'>View this lesson on Learn.co</a>

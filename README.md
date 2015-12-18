@@ -1,7 +1,5 @@
 # Interpolation Super Power
 
-hgello 
-
 ## Objectives
 
 1. Interpolate arbitrary code into a string

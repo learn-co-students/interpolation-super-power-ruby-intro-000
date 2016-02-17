@@ -171,8 +171,9 @@ String interpolation is basically a super power. And like any good super power, 
 ## Instructions
 
 1. Define a method, `#display_rainbow`, in `lib/display_rainbow.rb`
+2. `#display_rainbow` must accept an argument, an array of colors. The tests call `#display_rainbow` with the following evocation: `display_colors(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])`.
 2. `#display_rainbow` should print out the colors of the rainbow in the
-   following format: `"R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"`
+   following format: `"R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet"` by reading from the array passed in as an argument. 
 3. It should accept an array containing the colors as an argument
 4. Run `learn` locally until you pass
 5. Submit the lab

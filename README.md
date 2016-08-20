@@ -1,3 +1,4 @@
+
 # Interpolation Super Power
 
 ## Objectives

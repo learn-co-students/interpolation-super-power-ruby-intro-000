@@ -1,1 +1,10 @@
 # Write your #display_rainbow method here
+def display_rainbow(colors)
+   print "#{colors[0][0].capitalize}: #{colors[0]}, "
+   print "#{colors[1][0].capitalize}: #{colors[1]}, "
+   print "#{colors[2][0].capitalize}: #{colors[2]}, "
+   print "#{colors[3][0].capitalize}: #{colors[3]}, "
+   print "#{colors[4][0].capitalize}: #{colors[4]}, "
+   print "#{colors[5][0].capitalize}: #{colors[5]}, "
+   print "#{colors[6][0].capitalize}: #{colors[6]}\n"
+end

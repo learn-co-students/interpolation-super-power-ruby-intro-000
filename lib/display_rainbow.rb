@@ -9,5 +9,3 @@ def display_rainbow(array)
 
   puts "#{red}: #{array[0]}, #{orange}: #{array[1]}, #{yellow}: #{array[2]}, #{green}: #{array[3]}, #{blue}: #{array[4]}, #{indigo}: #{array[5]}, #{violet}: #{array[6]}"
 end
-
-display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])

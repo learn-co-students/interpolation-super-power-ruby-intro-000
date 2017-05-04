@@ -1,3 +1,3 @@
-def display_rainbow(james)
-  puts "R: #{james[0]}, O: #{james[1]}, Y: #{james[2]}, G: #{james[3]}, B: #{james[4]}, I: #{james[5]}, V: #{james[6]}"
+def display_rainbow(colors)
+  puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end

@@ -19,6 +19,6 @@ describe '#display_rainbow' do
     expect(colors).to receive(:[]).with(5).at_least(:once).and_return("indigo")
     expect(colors).to receive(:[]).with(6).at_least(:once).and_return("violet")
 
-    expect { display_rainbow(colors) }.to output("R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet\n").to_stdout
+    expect { display_rainbow(colors) }.to output("R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet").to_stdout
   end
 end

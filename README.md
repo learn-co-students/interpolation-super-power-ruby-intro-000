@@ -7,8 +7,6 @@
 
 ## Overview
 
-HI Brian!
-
 We've talked about string interpolation, but let's review quickly. String interpolation allows us to evaluate Ruby code, and inject the return value into the middle of a string. Normally, we see something like this:
 
 ```ruby

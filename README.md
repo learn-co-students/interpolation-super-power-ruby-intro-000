@@ -179,7 +179,7 @@ String interpolation is basically a super power. And like any good super power, 
 
 `colors` will be passed in as: `['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']`
 
-You must read from the `colors` argument and you can hardcode the order, there is no need to use `#each` or any loop. For example, given `letters = ["b","a","c"]` to print them in alphabetical order without iteration you could:
+You must read from the `colors` argument and you should hardcode the order. Do not use `#each` or any loop. For example, given `letters = ["b","a","c"]` to print them in alphabetical order without iteration you should:
 
 ```ruby
 letters = ["b","a","c"]

@@ -1,6 +1,6 @@
 # Write your #display_rainbow method here
-color = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+colorz = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-def display_rainbow(color)
-    puts "R: #{color[0]}, O: #{color[1]}, Y: #{color[2]}, G: #{color[3]}, B: #{color[4]}, I: #{color[5]}, V: #{color[6]}"
+def display_rainbow(colorz)
+    puts "R: #{colorz[0]}, O: #{colorz[1]}, Y: #{colorz[2]}, G: #{colorz[3]}, B: #{colorz[4]}, I: #{colorz[5]}, V: #{colorz[6]}"
 end

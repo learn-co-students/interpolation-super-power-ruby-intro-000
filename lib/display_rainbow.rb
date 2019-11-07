@@ -1,14 +1,18 @@
-# Write your #display_rainbow method here
-def display_rainbow(color)
-
-puts " rainbow:#{color[0]},o:#{color[1]},y:#{color[2]},G:#{color[3]},B:#{color[4]},I:#{color[5]},v:#{color[6]}"
+def display_rainbow(colors)
+  
+ colors=["red","orange","yellow","green","blue","indigo","violet"]
+ letters=["R:","O:","Y:","G:","B:","I:","V:"]
+  
+  print letters.zip(colors)
+  
 end
+colors=["red,","orange,","yellow,","green,","blue,","indigo,","violet,"]
+colors= colors[0]
+display_rainbow(colors)
 
-color=["R:red","O:orang","Y:yellow","G:green","B:blue","I:indigo","V:violet"]
-display_rainbow("R")
-display_rainbow("O")
-display_rainbow("Y")
-display_rainbow("G")
-display_rainbow("B")
-display_rainbow("I)
-display_rainbow("v")
+
+
+
+
+
+  

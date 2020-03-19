@@ -5,4 +5,4 @@ end
 
 rain = ['red', 'orange', 'yellow', 'green','blue','indigo', 'violet']
 
-prints display_rainbow(rain)
+puts display_rainbow(rain)

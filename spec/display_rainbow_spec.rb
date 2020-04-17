@@ -4,8 +4,8 @@ describe '#display_rainbow' do
 
     allow(self).to receive(:puts)
 
-    expect { display_rainbow(colors) }.to_not raise_error(NoMethodError)
-    expect { display_rainbow(colors) }.to_not raise_error(ArgumentError)
+    expect {display_rainbow(colors) }.to_not raise_error(NoMethodError)
+    expect {display_rainbow(colors) }.to_not raise_error(ArgumentError)
   end
 
   it 'prints out the colors of the rainbow correctly when passed in in order' do

@@ -1,6 +1,6 @@
-aydin = ["Aydin", "1", "20/09/2020", "Being a baby!"]
-kristine = ["Kristine", "42", "29/04/1978", "Paraprofessional!"]
-avni = ["Avni", "39", "09/06/1981", "Programmer!"]
+aydin = ["Aydin", "1", "20/09/2020", "Boss Baby"]
+kristine = ["Kristine", "42", "29/04/1997", "FBI Agent!"]
+avni = ["Avni", "39", "09/06/1996", "CIA Agent!"]
 
 def mumcus(family)
 

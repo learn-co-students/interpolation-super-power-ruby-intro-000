@@ -1,4 +1,5 @@
 #display_rainbow
+display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
 colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 puts "The first color in the rainbow is: #{colors[0]}"
 puts "The second color in the rainbow is: #{colors[1]}"

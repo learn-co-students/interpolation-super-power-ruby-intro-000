@@ -4,3 +4,4 @@ def display_rainbow(arr)
 end
 
 display_rainbow(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+# added a note!
